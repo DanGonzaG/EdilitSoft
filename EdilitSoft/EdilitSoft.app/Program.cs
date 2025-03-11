@@ -41,14 +41,16 @@ if (CadenaValida == null)
 }
 
 // Add services to the container.
+builder.Services.AddDbContext<Contexto>(options => options.UseSqlServer(CadenaValida));
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(CadenaValida));
+
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-builder.Services.AddDbContext<Contexto>(op =>
-{
-    op.UseSqlServer(CadenaValida);
-});
+
+
 
 var app = builder.Build();
 

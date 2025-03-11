@@ -1,8 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace EdilitSoft.app.Models
 {
-    public class Contexto : DbContext
+    public class Contexto : IdentityDbContext<IdentityUser>
+    //public class Contexto : DbContext
     {
         public Contexto(DbContextOptions<Contexto> options) :base(options){ }
 
