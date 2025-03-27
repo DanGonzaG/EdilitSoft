@@ -60,7 +60,7 @@ namespace EdilitSoft.app.Models
             {
                 Categoria.HasKey(c => c.IdCategoria);
                 Categoria.Property(a => a.NombreCategoria).IsRequired().HasMaxLength(100);
-                Categoria.Property(t => t.Activo).HasDefaultValue(true);
+                Categoria.Property(q => q.Activo).HasDefaultValue(true);
             });
 
             //Editorial
