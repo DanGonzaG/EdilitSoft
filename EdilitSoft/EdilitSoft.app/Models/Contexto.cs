@@ -26,6 +26,33 @@ namespace EdilitSoft.app.Models
         //2 clientes
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Categoria
