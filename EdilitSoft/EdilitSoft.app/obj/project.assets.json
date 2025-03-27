@@ -8043,19 +8043,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DanGG\\.nuget\\packages\\": {}
+    "C:\\Users\\50664\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
+      "projectUniqueName": "C:\\proy\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
       "projectName": "EdilitSoft.app",
-      "projectPath": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
-      "packagesPath": "C:\\Users\\DanGG\\.nuget\\packages\\",
-      "outputPath": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\obj\\",
+      "projectPath": "C:\\proy\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
+      "packagesPath": "C:\\Users\\50664\\.nuget\\packages\\",
+      "outputPath": "C:\\proy\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DanGG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\50664\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
