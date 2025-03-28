@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed126be99e096c4dc3ad05f406452e9e31767718")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e497c278e949b5d082126d8dd1f5ba30a20efcf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

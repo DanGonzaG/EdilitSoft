@@ -21,7 +21,7 @@ namespace EdilitSoft.app.Models
         DbSet<Catalogo> Catalogo { get; set; }
 
         //dbset DANIEL
-        //1 cotizaciones
+        public DbSet<Cotizaciones> Cotizacion { get; set; }
 
         //dbset JUAN
         //1 proveedores
@@ -82,6 +82,20 @@ namespace EdilitSoft.app.Models
                 Libro.Property(q => q.Activo).HasDefaultValue(true);
 
             });
+
+            //Cotizaciones
+            modelBuilder.Entity<Cotizaciones>(Cotizacion =>
+            {
+                Cotizacion.HasKey(c => c.IdCotizacion);
+                Cotizacion.Property(o => o.IdArticulo).IsRequired();
+                Cotizacion.Property(t => t.IdProovedor).IsRequired();
+                Cotizacion.Property(i => i.IdCliente).IsRequired();
+                Cotizacion.Property(z => z.IdUsuario).IsRequired();
+                Cotizacion.Property(l => l.ganancia).IsRequired();
+                Cotizacion.Property(m => m.total).IsRequired();
+                Cotizacion.Property(w => w.activo).HasDefaultValue(true);
+            });
+
 
             //Relaciones de tablas
             modelBuilder.Entity<Libros>().HasOne(l => l.Categoria).WithMany(c => c.Libros).HasForeignKey(a => a.CategoriaId);

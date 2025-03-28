@@ -1,0 +1,121 @@
+﻿@model EdilitSoft.app.Models.BookAPI.BookVolume;
+@{
+	ViewData["Title"] = "Details";
+}
+<head>
+	<link href="~/css/site.css" rel="stylesheet" />
+</head>
+
+<h1>Google Books API</h1>
+<hr />
+<div class="detallesApi">
+	<div>
+		<dl class="row">
+			@foreach (var a in Model.Items)
+			{
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(modeItem => a.VolumeInfo.ImageLinks.Thumbnail)
+				</dt>
+				<dd>
+					<img src="@Html.DisplayFor(modelItem => a.VolumeInfo.ImageLinks.Thumbnail)" width="500" height="800" />
+				</dd>
+			}
+		</dl>
+
+	</div>
+	<div>
+		<div>
+
+
+			<dl class="row">
+				@foreach (var a in Model.Items)
+				{
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.VolumeInfo.Title)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.VolumeInfo.Title)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.VolumeInfo.Subtitle)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.VolumeInfo.Subtitle)
+					</dd>
+					
+					@foreach (var Authors in a.VolumeInfo.Authors)
+					{
+						<dt class="col-sm-2">
+							@Html.DisplayNameFor(modeItem => Authors)
+						</dt>
+						<dd>
+							@Html.DisplayFor(modelItem => Authors)
+						</dd>
+					}
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.VolumeInfo.Publisher)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.VolumeInfo.Publisher)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.VolumeInfo.PublishedDate)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.VolumeInfo.PublishedDate)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.VolumeInfo.Description)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.VolumeInfo.Description)
+					</dd>
+					@foreach (var Categories in a.VolumeInfo.Categories)
+					{
+						<dt class="col-sm-2">
+							@Html.DisplayNameFor(modeItem => Categories)
+						</dt>
+						<dd>
+							@Html.DisplayFor(modelItem => Categories)
+						</dd>
+					}
+					
+					@foreach (var Indentifider in a.VolumeInfo.IndustryIdentifiers)
+					{
+						<dt class="col-sm-2">
+							<h4>Identificador</h4>
+						</dt>
+						<dd>
+							@Html.DisplayFor(modelItem => Indentifider.Type)
+							@Html.DisplayFor(modelItem => Indentifider.Identifier)
+						</dd>
+					}
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.VolumeInfo.Language)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.VolumeInfo.Language)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.SaleInfo.Country)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.SaleInfo.Country)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(modeItem => a.SaleInfo.Saleability)
+					</dt>
+					<dd>
+						@Html.DisplayFor(modelItem => a.SaleInfo.Saleability)
+					</dd>
+				}
+			</dl>
+				
+		</div>
+	</div>
+</div>
+
+<div>
+
+	<a asp-controller="Home" asp-action="Index">Volver al Inicio</a>
+</div>
