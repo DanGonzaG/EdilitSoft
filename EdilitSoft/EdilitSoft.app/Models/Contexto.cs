@@ -25,7 +25,10 @@ namespace EdilitSoft.app.Models
 
         //dbset JUAN
         //1 proveedores
+        public DbSet<Proveedores> Proveedor { get; set; }
         //2 clientes
+        public DbSet<Clientes> Cliente { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -95,6 +98,29 @@ namespace EdilitSoft.app.Models
                 Cotizacion.Property(m => m.total).IsRequired();
                 Cotizacion.Property(w => w.activo).HasDefaultValue(true);
             });
+
+            // Proveedores
+            modelBuilder.Entity<Proveedores>(entity =>
+            {
+                entity.HasKey(p => p.IdProveedor);
+                entity.Property(p => p.Identificacion).IsRequired().HasMaxLength(100);
+                entity.Property(p => p.Nombre).IsRequired().HasMaxLength(100);
+                entity.Property(p => p.Telefono).IsRequired().HasMaxLength(100);
+                entity.Property(p => p.Correo).IsRequired().HasMaxLength(100);
+                entity.Property(p => p.Activo).HasDefaultValue(true);
+            });
+
+            // Clientes
+            modelBuilder.Entity<Clientes>(entity =>
+            {
+                entity.HasKey(c => c.IdCliente);
+                entity.Property(c => c.Identificacion).IsRequired().HasMaxLength(100);
+                entity.Property(c => c.Nombre).IsRequired().HasMaxLength(100);
+                entity.Property(c => c.Telefono).IsRequired().HasMaxLength(100);
+                entity.Property(c => c.Correo).IsRequired().HasMaxLength(100);
+                entity.Property(c => c.Activo).HasDefaultValue(true);
+            });
+
 
 
             //Relaciones de tablas
