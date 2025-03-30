@@ -2,6 +2,9 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+<head>
+    <link href="~/plantilla/css/propios.css" rel="stylesheet" />
+</head>
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
@@ -15,12 +18,14 @@
     </li>
 }
 else
-{
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+    {
+        <ul class="navegation">
+            <li class="nav-itemDaniel">
+                <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Register">Register</a>
+            </li>
+            <li class="nav-itemDaniel">
+                <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </li>
+        </ul>
 }
 </ul>

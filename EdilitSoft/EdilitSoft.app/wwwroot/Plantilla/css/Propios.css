@@ -1,0 +1,13 @@
+﻿.navegation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; /* Para eliminar los puntos de las listas */
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.nav-itemDaniel {
+    margin-right: 15px; /* Espaciado entre los elementos */
+}
+
