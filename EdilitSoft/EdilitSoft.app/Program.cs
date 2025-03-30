@@ -1,11 +1,14 @@
 using EdilitSoft.app.Data;
 using EdilitSoft.app.Models;
+using EdilitSoft.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var listaConexiones = new List<string> {
+/*var listaConexiones = new List<string> 
+{
     builder.Configuration.GetConnectionString("Daniel"),
     builder.Configuration.GetConnectionString("JuanP"),
     builder.Configuration.GetConnectionString("Andy"),
@@ -18,10 +21,10 @@ foreach (var recorer in listaConexiones)
 {
     try
     {
-        var builderOpcional = new DbContextOptionsBuilder<Contexto>();
+        var builderOpcional = new DbContextOptionsBuilder<ApplicationDbContext>();
         builderOpcional.UseSqlServer(recorer);
 
-        using var temContext = new Contexto(builderOpcional.Options);
+        using var temContext = new ApplicationDbContext(builderOpcional.Options);
         if (temContext.Database.CanConnect())
         {
             CadenaValida = recorer;
@@ -38,13 +41,27 @@ foreach (var recorer in listaConexiones)
 if (CadenaValida == null)
 {
     Console.WriteLine("No se encontro cadena de conexion");
-}
+}*/
+
+
+
+
 
 // Add services to the container.
-builder.Services.AddDbContext<Contexto>(options => options.UseSqlServer(CadenaValida));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+//builder.Services.AddDbContext<Contexto>(options => options.UseSqlServer(CadenaValida));
+
+var connectionString = builder.Configuration.GetConnectionString("Server") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+Console.WriteLine($"Cadena de conexión utilizada: {connectionString}");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(CadenaValida));
+    options.UseSqlServer(connectionString));
+
+builder.Services.AddDbContext<Contexto>(options =>
+    options.UseSqlServer(connectionString));
+
+
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();

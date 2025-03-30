@@ -8043,24 +8043,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DanGG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoEdilit2\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
+      "projectUniqueName": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
       "projectName": "EdilitSoft.app",
-      "projectPath": "C:\\ProyectoEdilit2\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoEdilit2\\EdilitSoft\\EdilitSoft.app\\obj\\",
+      "projectPath": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
+      "packagesPath": "C:\\Users\\DanGG\\.nuget\\packages\\",
+      "outputPath": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DanGG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8086,8 +8081,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -8145,7 +8139,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

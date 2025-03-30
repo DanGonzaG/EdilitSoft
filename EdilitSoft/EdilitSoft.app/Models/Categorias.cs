@@ -11,6 +11,6 @@ namespace EdilitSoft.app.Models
         public bool Activo { get; set; }
 
         //Relacion con libros
-        public IEnumerable<Libros> Libros { get; set; }
+        public IEnumerable<Libros>? Libros { get; set; }
     }
 }

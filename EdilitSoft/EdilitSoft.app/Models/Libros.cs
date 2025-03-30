@@ -12,10 +12,10 @@ namespace EdilitSoft.app.Models
         public int EditorialId { get; set; }
 
         [Required(ErrorMessage = "Campo obligatorio"), MaxLength(1000, ErrorMessage = "No más de 1000 carácteres")]
-        public string Titulo {  get; set; }
+        public string Titulo { get; set; }
 
         [Required(ErrorMessage = "Campo obligatorio"), MaxLength(100, ErrorMessage = "No más de 100 carácteres")]
-        public string Autor {  get; set; }
+        public string Autor { get; set; }
 
         [Required(ErrorMessage = "Campo obligatorio")]
         public string Sinopsis { get; set; }
@@ -25,7 +25,8 @@ namespace EdilitSoft.app.Models
         public bool Activo { get; set; }
 
         //Relacion con otras tablas
-        public Categorias Categoria { get; set; }
-        public Editoriales Editorial { get; set; }
+        public Categorias? Categoria { get; set; }
+        public Editoriales? Editorial { get; set; }
+        public Inventario? Inventario { get; set; }
     }
 }

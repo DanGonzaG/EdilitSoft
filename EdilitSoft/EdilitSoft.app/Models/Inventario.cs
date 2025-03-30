@@ -10,5 +10,7 @@
         public bool Activo { get; set; }
 
         public Catalogo? Catalogo { get; set; }
+        public Libros? Libros { get; set; }
+        public Cotizaciones? Cotizaciones { get; set; }
     }
 }

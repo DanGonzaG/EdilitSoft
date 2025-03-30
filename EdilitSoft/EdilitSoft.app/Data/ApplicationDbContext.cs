@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using EdilitSoft.app.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace EdilitSoft.app.Data
@@ -9,5 +11,6 @@ namespace EdilitSoft.app.Data
             : base(options)
         {
         }
+
     }
 }

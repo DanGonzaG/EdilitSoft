@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using EdilitSoft.app.Models;
 
-namespace EdilitSoft.app.Models
+namespace EdilitSoft.Models
 {
-    public class Contexto : IdentityDbContext<IdentityUser>
-    //public class Contexto : DbContext
+    public class Contexto : DbContext
     {
-        public Contexto(DbContextOptions<Contexto> options) :base(options){ }
+        public Contexto(DbContextOptions<Contexto> options) : base(options) { }
 
         //dbset ANDY
         public DbSet<Categorias> Categoria { get; set; }
@@ -15,44 +15,27 @@ namespace EdilitSoft.app.Models
         public DbSet<Libros> Libro { get; set; }
 
         //dbset MIJA
-        //1 inventario
-        DbSet<Inventario> Inventario { get; set; }
-        //2 catalgo
-        DbSet<Catalogo> Catalogo { get; set; }
+        public DbSet<Inventario> Inventario { get; set; }
+        public DbSet<Catalogo> Catalogo { get; set; }
 
         //dbset DANIEL
         public DbSet<Cotizaciones> Cotizacion { get; set; }
 
         //dbset JUAN
-        //1 proveedores
         public DbSet<Proveedores> Proveedor { get; set; }
-        //2 clientes
         public DbSet<Clientes> Cliente { get; set; }
-
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Inventario>(entity => 
-            {
-                entity.HasKey(x => x.IdArticulo);
-                entity.Property(x => x.Activo).HasDefaultValue(true);
-                entity.Property(x => x.Precio).HasColumnType("decimal(18,2)");
-                entity.HasOne(i=> i.Catalogo)
-                      .WithOne()
-                      .HasForeignKey<Catalogo>(c => c.IdArticulo)
-                      .OnDelete(DeleteBehavior.Restrict);
 
-            });
             modelBuilder.Entity<Catalogo>(entity =>
             {
                 entity.HasKey(x => x.IdCatalogo);
+                entity.Property(x => x.IdArticuloFK);
                 entity.Property(x => x.Activo).HasDefaultValue(true);
                 entity.Property(x => x.RutaImagen).HasMaxLength(500);
-                entity.HasMany(c => c.Articulos)
-                      .WithOne()
-                      .HasForeignKey(i => i.IdArticulo)
-                      .OnDelete(DeleteBehavior.Restrict);
+
             });
 
             //Categoria
@@ -86,17 +69,17 @@ namespace EdilitSoft.app.Models
 
             });
 
-            //Cotizaciones
-            modelBuilder.Entity<Cotizaciones>(Cotizacion =>
+            //Inventario
+            modelBuilder.Entity<Inventario>(entity =>
             {
-                Cotizacion.HasKey(c => c.IdCotizacion);
-                Cotizacion.Property(o => o.IdArticulo).IsRequired();
-                Cotizacion.Property(t => t.IdProovedor).IsRequired();
-                Cotizacion.Property(i => i.IdCliente).IsRequired();
-                Cotizacion.Property(z => z.IdUsuario).IsRequired();
-                Cotizacion.Property(l => l.ganancia).IsRequired();
-                Cotizacion.Property(m => m.total).IsRequired();
-                Cotizacion.Property(w => w.activo).HasDefaultValue(true);
+                entity.HasKey(x => x.IdArticulo);
+                entity.Property(x => x.IdLibro).IsRequired();
+                entity.Property(x => x.Fecha).IsRequired();
+                entity.Property(x => x.Existencias).IsRequired();
+                entity.Property(x => x.Precio).HasColumnType("decimal(18,2)");
+                entity.Property(x => x.Activo).HasDefaultValue(true);
+
+
             });
 
             // Proveedores
@@ -121,19 +104,67 @@ namespace EdilitSoft.app.Models
                 entity.Property(c => c.Activo).HasDefaultValue(true);
             });
 
-
+            //Cotizaciones
+            modelBuilder.Entity<Cotizaciones>(Cotizacion =>
+            {
+                Cotizacion.HasKey(c => c.IdCotizacion);
+                Cotizacion.Property(o => o.IdArticulo).IsRequired();
+                Cotizacion.Property(t => t.IdProovedor).IsRequired();
+                Cotizacion.Property(i => i.IdCliente).IsRequired();
+                Cotizacion.Property(z => z.IdUsuario).IsRequired();
+                Cotizacion.Property(l => l.Ganancia).IsRequired().HasColumnType("decimal(18,2)"); // Especifica el tipo de columna
+                Cotizacion.Property(m => m.Total).IsRequired().HasColumnType("decimal(18,2)");
+                Cotizacion.Property(x => x.OtrosCostos).HasColumnType("decimal(18,2)"); // Agrega OtrosCostos
+                Cotizacion.Property(y => y.Transporte).HasColumnType("decimal(18,2)"); // Agrega transporte
+                Cotizacion.Property(w => w.Activo).HasDefaultValue(true);
+            });
 
             //Relaciones de tablas
-            modelBuilder.Entity<Libros>().HasOne(l => l.Categoria).WithMany(c => c.Libros).HasForeignKey(a => a.CategoriaId);
-            modelBuilder.Entity<Libros>().HasOne(e => e.Editorial).WithMany(f => f.Libros).HasForeignKey(h => h.EditorialId);
+            //Relacion Libro Categoria
+            modelBuilder.Entity<Libros>()
+                .HasOne(l => l.Categoria)
+                .WithMany(c => c.Libros)
+                .HasForeignKey(a => a.CategoriaId);
 
+            //Relacion Libro Editorial
+            modelBuilder.Entity<Libros>()
+                .HasOne(e => e.Editorial)
+                .WithMany(f => f.Libros)
+                .HasForeignKey(h => h.EditorialId);
+
+            //Relacion Inventario Libro
+            modelBuilder.Entity<Inventario>()
+                .HasOne(inv => inv.Libros)
+                .WithOne(li => li.Inventario)
+                .HasForeignKey<Inventario>(lib => lib.IdLibro);
+
+            //Realacion Catalogo Inventario
+            modelBuilder.Entity<Catalogo>()
+                .HasOne(c => c.Inventario)
+                .WithOne(t => t.Catalogo)
+                .HasForeignKey<Catalogo>(i => i.IdArticuloFK);
+
+            //Relacion Cotizacion Inventario
+            modelBuilder.Entity<Cotizaciones>()
+                .HasMany(m => m.Articulos)
+                .WithOne(n => n.Cotizaciones)
+                .HasForeignKey(fo => fo.IdArticulo);
+
+            //Realcion Cotizaciones Proveedor
+            modelBuilder.Entity<Cotizaciones>()
+                .HasOne(c => c.Proveedor)
+                .WithOne(app => app.Cotizaciones)
+                .HasForeignKey<Cotizaciones>(a => a.IdProovedor);
+
+            //Realcion Cotizaciones Cliente
+            modelBuilder.Entity<Cotizaciones>()
+                .HasOne(c => c.Cliente)
+                .WithOne(app => app.Cotizaciones)
+                .HasForeignKey<Cotizaciones>(a => a.IdCliente);
 
         }
-
-
-
-
-
-
     }
 }
+
+
+    

@@ -17,25 +17,23 @@ namespace EdilitSoft.app.Models
 
         [Required(ErrorMessage = "Campo obligatorio")]
         public int IdUsuario { get; set; }
-        public decimal transporte { get; set; }
+        public decimal Transporte { get; set; }
 
         public decimal? OtrosCostos { get; set; }
 
         [Required(ErrorMessage = "Campo obligatorio")]
-        public decimal ganancia { get; set; }//volor que debe de ser porcentual   
+        public decimal Ganancia { get; set; }//volor que debe de ser porcentual   
 
         [Required(ErrorMessage = "Campo obligatorio")]
-        public decimal total { get; set; }
+        public decimal Total { get; set; }
 
-        public bool activo { get; set; }
+        public bool Activo { get; set; }
 
         //Relacion con las otras tablas
-        //public Articulos? Articulo { get; set; }
+        public IEnumerable<Inventario>? Articulos { get; set; }
 
-       // public Usuario? Usuario { get; set; }
+        public Proveedores? Proveedor { get; set; }
 
-        //public Proveedores? Proveedor { get; set; }
-
-        //public Clientes? Cliente { get; set; }
+        public Clientes? Cliente { get; set; }
     }
 }

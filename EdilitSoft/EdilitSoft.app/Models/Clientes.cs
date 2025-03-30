@@ -19,5 +19,7 @@ namespace EdilitSoft.app.Models
         public string Correo { get; set; }
 
         public bool Activo { get; set; }
+
+        public Cotizaciones? Cotizaciones { get; set; }
     }
 }
