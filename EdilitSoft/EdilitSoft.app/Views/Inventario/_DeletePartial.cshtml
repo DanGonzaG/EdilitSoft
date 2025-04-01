@@ -1,0 +1,33 @@
+﻿@model EdilitSoft.app.Models.Inventario
+
+<div class="card sticky-top" style="top: 20px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);">
+    <div class="card-header bg-danger text-white">
+        <h5 class="card-title mb-0">Eliminar Registro</h5>
+    </div>
+    <input type="hidden" asp-for="IdArticulo" />
+    <div class="card-body">
+        <p>¿Está seguro que desea eliminar este registro?</p>
+        <dl class="row">
+            <dt class="col-sm-4">Título</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Libros.Titulo)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Fecha)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Fecha)</dd>
+
+            <!-- Resto de los campos -->
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="IdArticulo" />
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Confirmar Eliminar
+            </button>
+            <a asp-action="Index"
+               asp-route-sortOrder="@ViewData["CurrentSort"]"
+               class="btn btn-secondary">
+                <i class="bi bi-x-lg"></i> Cancelar
+            </a>
+        </form>
+    </div>
+</div>

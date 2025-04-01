@@ -8,12 +8,14 @@ using Microsoft.EntityFrameworkCore;
 using EdilitSoft.Models;
 using EdilitSoft.app.Models;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 
 namespace EdilitSoft.app.Controllers
 {
     public class InventarioController : Controller
     {
         private readonly Contexto _context;
+        private object _logger;
 
         public InventarioController(Contexto context)
         {
@@ -21,35 +23,87 @@ namespace EdilitSoft.app.Controllers
         }
 
         // GET: Inventario
-        public async Task<IActionResult> Index(string sortOrder, string currentFilter)
+        public async Task<IActionResult> Index(
+            string sortOrder,
+            string currentFilter,
+            string searchString,
+            int? pageNumber,
+            int? selectedId,
+            int? deleteId,
+            int? editId)
         {
-            // Configura los parámetros de ordenamiento
             ViewData["CurrentSort"] = sortOrder;
             ViewData["TituloSortParam"] = sortOrder == "titulo_asc" ? "titulo_desc" : "titulo_asc";
             ViewData["AutorSortParam"] = sortOrder == "autor_asc" ? "autor_desc" : "autor_asc";
-            ViewData["FechaSortParam"] = sortOrder == "fecha_asc" ? "fecha_desc" : "fecha_asc";
-            ViewData["ExistenciasSortParam"] = sortOrder == "existencias_asc" ? "existencias_desc" : "existencias_asc";
-            ViewData["PrecioSortParam"] = sortOrder == "precio_asc" ? "precio_desc" : "precio_asc";
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewData["CurrentFilter"] = searchString;
 
             var query = _context.Inventario.Include(i => i.Libros).AsQueryable();
 
-            // Aplica el ordenamiento
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(i => i.Libros.Titulo.Contains(searchString)
+                                      || i.Libros.Autor.Contains(searchString));
+            }
+
             query = sortOrder switch
             {
-                "titulo_asc" => query.OrderBy(i => i.Libros!.Titulo),
-                "titulo_desc" => query.OrderByDescending(i => i.Libros!.Titulo),
-                "autor_asc" => query.OrderBy(i => i.Libros!.Autor),
-                "autor_desc" => query.OrderByDescending(i => i.Libros!.Autor),
-                "fecha_asc" => query.OrderBy(i => i.Fecha),
-                "fecha_desc" => query.OrderByDescending(i => i.Fecha),
-                "existencias_asc" => query.OrderBy(i => i.Existencias),
-                "existencias_desc" => query.OrderByDescending(i => i.Existencias),
-                "precio_asc" => query.OrderBy(i => i.Precio),
-                "precio_desc" => query.OrderByDescending(i => i.Precio),
-                _ => query.OrderBy(i => i.IdArticulo) // Orden por defecto
+                "titulo_asc" => query.OrderBy(i => i.Libros.Titulo),
+                "titulo_desc" => query.OrderByDescending(i => i.Libros.Titulo),
+                "autor_asc" => query.OrderBy(i => i.Libros.Autor),
+                "autor_desc" => query.OrderByDescending(i => i.Libros.Autor),
+                _ => query.OrderBy(i => i.IdArticulo)
             };
 
-            return View(await query.ToListAsync());
+            // Resetear paneles
+            ViewBag.ShowDetails = false;
+            ViewBag.ShowEditPanel = false;
+            ViewBag.ShowDeletePanel = false;
+
+
+            if (selectedId.HasValue)
+            {
+                ViewBag.SelectedItem = await query.FirstOrDefaultAsync(i => i.IdArticulo == selectedId);
+                ViewBag.ShowDetails = true;
+                // Asegurarse de que los otros paneles estén cerrados
+                ViewBag.ShowEditPanel = false;
+                ViewBag.ShowDeletePanel = false;
+            }
+            else if (editId.HasValue)
+            {
+                ViewBag.ItemToEdit = await query.FirstOrDefaultAsync(i => i.IdArticulo == editId);
+                ViewBag.ShowEditPanel = true;
+                // Asegurarse de que los otros paneles estén cerrados
+                ViewBag.ShowDetails = false;
+                ViewBag.ShowDeletePanel = false;
+            }
+            else if (deleteId.HasValue)
+            {
+                ViewBag.ItemToDelete = await query.FirstOrDefaultAsync(i => i.IdArticulo == deleteId);
+                ViewBag.ShowDeletePanel = true;
+                // Asegurarse de que los otros paneles estén cerrados
+                ViewBag.ShowDetails = false;
+                ViewBag.ShowEditPanel = false;
+            }
+            else
+            {
+                // Si no hay ningún panel activo, asegurarse de que todos estén cerrados
+                ViewBag.ShowDetails = false;
+                ViewBag.ShowEditPanel = false;
+                ViewBag.ShowDeletePanel = false;
+            }
+
+            int pageSize = 10; // Número de items por página
+            return View(await PaginatedList<Inventario>.CreateAsync(query.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
         // GET: Inventario/Details/5
@@ -107,22 +161,31 @@ namespace EdilitSoft.app.Controllers
         }
 
 
+
         // GET: Inventario/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id, string sortOrder, string currentFilter)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var inventario = await _context.Inventario.FindAsync(id);
+            var inventario = await _context.Inventario
+                .Include(i => i.Libros)
+                .FirstOrDefaultAsync(m => m.IdArticulo == id);
+
             if (inventario == null)
             {
                 return NotFound();
-            }            
+            }
+
             ViewData["IdLibro"] = new SelectList(_context.Libro, "IdLibro", "Titulo", inventario.IdLibro);
+            ViewData["CurrentSort"] = sortOrder;
+            ViewData["CurrentFilter"] = currentFilter;
+
             return View(inventario);
         }
+
 
         // POST: Inventario/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -131,19 +194,16 @@ namespace EdilitSoft.app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdArticulo,IdLibro,Existencias,Precio,Activo")] Inventario inventario)
         {
-            if (id != inventario.IdArticulo)
-            {
-                return NotFound();
-            }
+            
 
             if (ModelState.IsValid)
             {
                 inventario.Fecha = DateTime.Now;
                 try
                 {
-
                     _context.Update(inventario);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -156,15 +216,18 @@ namespace EdilitSoft.app.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
             }
-            
+
+            // Si hay errores, recargar los datos necesarios
             ViewData["IdLibro"] = new SelectList(_context.Libro, "IdLibro", "Autor", inventario.IdLibro);
+            
+
             return View(inventario);
         }
 
         // GET: Inventario/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // GET: Inventario/Delete/5
+        public async Task<IActionResult> Delete(int? id, bool fromIndex = false)
         {
             if (id == null)
             {
@@ -179,27 +242,41 @@ namespace EdilitSoft.app.Controllers
                 return NotFound();
             }
 
+            if (fromIndex)
+            {
+                // Redirige al Index con el parámetro deleteId
+                return RedirectToAction(nameof(Index), new { deleteId = id });
+            }
+
             return View(inventario);
         }
 
         // POST: Inventario/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(IFormCollection form)
         {
-            var inventario = await _context.Inventario.FindAsync(id);
-            if (inventario != null)
+            int id;
+            if (!int.TryParse(form["IdArticulo"], out id) || id == 0)
             {
-                _context.Inventario.Remove(inventario);
+                return BadRequest("ID inválido");
             }
 
+            var inventario = await _context.Inventario.FindAsync(id);
+            if (inventario == null)
+            {
+                return NotFound();
+            }
+
+            _context.Inventario.Remove(inventario);
             await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
         private bool InventarioExists(int id)
         {
             return _context.Inventario.Any(e => e.IdArticulo == id);
-        }
+        }      
     }
 }

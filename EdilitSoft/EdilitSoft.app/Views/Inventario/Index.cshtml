@@ -1,4 +1,4 @@
-﻿@model IEnumerable<EdilitSoft.app.Models.Inventario>
+﻿@model PaginatedList<EdilitSoft.app.Models.Inventario>
 
 @{
     ViewData["Title"] = "Inventario";
@@ -9,116 +9,176 @@
 <p>
     <a asp-action="Create" class="btn btn-primary">Agregar al Inventario</a>
 </p>
+<div class="container">
+    <div class="row">
+        <!-- Columna principal (tabla) -->
+        <div class="@(ViewBag.ShowDetails == true || ViewBag.ShowEditPanel == true ? "col-md-6" : "col-md-6")">
+            <table class="table table-striped table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>
+                            <a asp-action="Index"
+                               asp-route-sortOrder="@ViewData["TituloSortParam"]"
+                               class="text-decoration-none">
+                                Título del Libro
+                                @if ((string?)ViewData["CurrentSort"] == "titulo_asc")
+                                {
+                                    <i class="bi bi-arrow-up"></i>
+                                }
+                                else if ((string?)ViewData["CurrentSort"] == "titulo_desc")
+                                {
+                                    <i class="bi bi-arrow-down"></i>
+                                }
+                            </a>
+                        </th>
+                        <th>
+                            <a asp-action="Index"
+                               asp-route-sortOrder="@ViewData["AutorSortParam"]"
+                               class="text-decoration-none">
+                                Autor
+                                @if ((string?)ViewData["CurrentSort"] == "autor_asc")
+                                {
+                                    <i class="bi bi-arrow-up"></i>
+                                }
+                                else if ((string?)ViewData["CurrentSort"] == "autor_desc")
+                                {
+                                    <i class="bi bi-arrow-down"></i>
+                                }
+                            </a>
+                        </th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="@((ViewBag.SelectedItem?.IdArticulo == item.IdArticulo) ? "table-primary" :
+                              (ViewBag.ItemToEdit?.IdArticulo == item.IdArticulo) ? "table-warning" : "")">
+                            <td>@(item.Libros?.Titulo ?? "N/A")</td>
+                            <td>@(item.Libros?.Autor ?? "N/A")</td>
+                            <td>
+                                <div class="btn-group btn-group-sm">
+                                    <a asp-action="Index"
+                                       asp-route-editId="@item.IdArticulo"
+                                       asp-route-sortOrder="@ViewData["CurrentSort"]"
+                                       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                                       class="btn btn-warning">
+                                        <i class="bi bi-pencil"></i> Editar
+                                    </a>
+                                    <a asp-action="Index"
+                                       asp-route-selectedId="@item.IdArticulo"
+                                       asp-route-sortOrder="@ViewData["CurrentSort"]"
+                                       class="btn btn-info">
+                                        <i class="bi bi-eye"></i> Detalles
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.IdArticulo" asp-route-fromIndex="true" class="btn btn-danger btn-sm">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item @(!Model.HasPreviousPage ? "disabled" : "")">
+                        <a class="page-link"
+                           asp-action="Index"
+                           asp-route-pageNumber="@(Model.PageIndex - 1)"
+                           asp-route-sortOrder="@ViewData["CurrentSort"]"
+                           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                           asp-route-selectedId="@ViewBag.SelectedItem?.IdArticulo">
+                            Anterior
+                        </a>
+                    </li>
 
-<table class="table table-striped table-hover">
-    <thead class="thead-light">
-        <tr>
-            <th>
-                <a asp-action="Index"
-                   asp-route-sortOrder="@ViewData["TituloSortParam"]"
-                   class="text-decoration-none">
-                    Título del Libro
-                    @if ((string?)ViewData["CurrentSort"] == "titulo_asc")
+                    @for (int i = 1; i <= Model.TotalPages; i++)
                     {
-                        <i class="bi bi-arrow-up"></i>
+                        <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                            <a class="page-link"
+                               asp-action="Index"
+                               asp-route-pageNumber="@i"
+                               asp-route-sortOrder="@ViewData["CurrentSort"]"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               asp-route-selectedId="@ViewBag.SelectedItem?.IdArticulo">
+                                @i
+                            </a>
+                        </li>
                     }
-                    else if ((string?)ViewData["CurrentSort"] == "titulo_desc")
-                    {
-                        <i class="bi bi-arrow-down"></i>
-                    }
-                </a>
-            </th>
-            <th>
-                <a asp-action="Index"
-                   asp-route-sortOrder="@ViewData["AutorSortParam"]"
-                   class="text-decoration-none">
-                    Autor
-                    @if ((string?)ViewData["CurrentSort"] == "autor_asc")
-                    {
-                        <i class="bi bi-arrow-up"></i>
-                    }
-                    else if ((string?)ViewData["CurrentSort"] == "autor_desc")
-                    {
-                        <i class="bi bi-arrow-down"></i>
-                    }
-                </a>
-            </th>
-            <th>
-                <a asp-action="Index"
-                   asp-route-sortOrder="@ViewData["FechaSortParam"]"
-                   class="text-decoration-none">
-                    Fecha de actualización
-                    @if ((string?)ViewData["CurrentSort"] == "fecha_asc")
-                    {
-                        <i class="bi bi-arrow-up"></i>
-                    }
-                    else if ((string?)ViewData["CurrentSort"] == "fecha_desc")
-                    {
-                        <i class="bi bi-arrow-down"></i>
-                    }
-                </a>
-            </th>
-            <th>
-                <a asp-action="Index"
-                   asp-route-sortOrder="@ViewData["ExistenciasSortParam"]"
-                   class="text-decoration-none">
-                    Existencias
-                    @if ((string?)ViewData["CurrentSort"] == "existencias_asc")
-                    {
-                        <i class="bi bi-arrow-up"></i>
-                    }
-                    else if ((string?)ViewData["CurrentSort"] == "existencias_desc")
-                    {
-                        <i class="bi bi-arrow-down"></i>
-                    }
-                </a>
-            </th>
-            <th>
-                <a asp-action="Index"
-                   asp-route-sortOrder="@ViewData["PrecioSortParam"]"
-                   class="text-decoration-none">
-                    Precio
-                    @if ((string?)ViewData["CurrentSort"] == "precio_asc")
-                    {
-                        <i class="bi bi-arrow-up"></i>
-                    }
-                    else if ((string?)ViewData["CurrentSort"] == "precio_desc")
-                    {
-                        <i class="bi bi-arrow-down"></i>
-                    }
-                </a>
-            </th>
-            <th>Estado</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
+
+                    <li class="page-item @(!Model.HasNextPage ? "disabled" : "")">
+                        <a class="page-link"
+                           asp-action="Index"
+                           asp-route-pageNumber="@(Model.PageIndex + 1)"
+                           asp-route-sortOrder="@ViewData["CurrentSort"]"
+                           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                           asp-route-selectedId="@ViewBag.SelectedItem?.IdArticulo">
+                            Siguiente
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <form asp-action="Index" method="get" class="mb-3">
+                <div class="input-group">
+                    <input type="text" class="form-control"
+                           name="searchString"
+                           value="@ViewData["CurrentFilter"]"
+                           placeholder="Buscar por título o autor">
+                    <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                    <a asp-action="Index" class="btn btn-outline-danger">Limpiar</a>
+                </div>
+            </form>
+        </div>
+        <!-- Panel lateral derecho -->
+        @if (ViewBag.ShowDetails == true)
         {
-            <tr>
-                <td>@(item.Libros?.Titulo ?? "N/A")</td>
-                <td>@(item.Libros?.Autor ?? "N/A")</td>
-                <td>@item.Fecha.ToString("dd/MM/yyyy")</td>
-                <td>@item.Existencias</td>
-                <td>@item.Precio.ToString("C")</td>
-                <td>
-                    <input type="checkbox" @(item.Activo ? "checked" : "")
-                           class="form-check-input" disabled />
-                </td>
-                <td>
-                    <div class="btn-group btn-group-sm">
-                        <a asp-action="Edit" asp-route-id="@item.IdArticulo"
-                           class="btn btn-warning">Editar</a>
-                        <a asp-action="Details" asp-route-id="@item.IdArticulo"
-                           class="btn btn-info">Detalles</a>
-                        <a asp-action="Delete" asp-route-id="@item.IdArticulo"
-                           class="btn btn-danger">Eliminar</a>
+            <div class="col-md-4">
+                <div class="card sticky-top" style="top: 20px;">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="card-title mb-0">Detalles del Libro</h5>
                     </div>
-                </td>
-            </tr>
+                    <div class="card-body">
+                        @await Html.PartialAsync("_DetailsPartial", ViewBag.SelectedItem as EdilitSoft.app.Models.Inventario)
+                    </div>
+                    <div class="card-footer text-end">
+                        <a asp-action="Index"
+                           asp-route-sortOrder="@ViewData["CurrentSort"]"
+                           class="btn btn-secondary">
+                            <i class="bi bi-x-lg"></i> Cerrar
+                        </a>
+                    </div>
+                </div>
+            </div>
         }
-    </tbody>
-</table>
+        @if (ViewBag.ShowEditPanel == true)
+        {
+            <div class="col-md-4">
+                <div class="card sticky-top" style="top: 20px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);">
+                    @await Html.PartialAsync("_EditPartial", ViewBag.ItemToEdit as EdilitSoft.app.Models.Inventario)
+                </div>
+            </div>
+        }
+        
+        @if (ViewBag.ShowDeletePanel == true)
+        {
+            <div class="col-md-4">
+                @await Html.PartialAsync("_DeletePartial", ViewBag.ItemToDelete as EdilitSoft.app.Models.Inventario)
+            </div>
+        }
+    </div>
+        
+    
+</div>
+    
+        
+
+        
+
+
+
+    
+
 
 @section Styles {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -136,6 +196,31 @@
         .bi {
             margin-left: 5px;
             font-size: 0.8rem;
+        }
+
+        .sticky-top {
+            z-index: 1;
+        }
+
+        .card {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+    </style>
+    <style>
+        /* Mantén tus estilos actuales y agrega estos */
+        #detailsPanel {
+            border-left: 4px solid #0dcaf0;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .card-header {
+            padding: 0.75rem 1.25rem;
+        }
+
+        /* Asegura que la tabla no sea demasiado ancha */
+        .table {
+            table-layout: auto;
+            width: 100%;
         }
     </style>
 }
