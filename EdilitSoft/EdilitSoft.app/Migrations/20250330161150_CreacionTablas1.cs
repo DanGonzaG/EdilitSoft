@@ -144,7 +144,7 @@ namespace EdilitSoft.app.Migrations
                 name: "Inventario",
                 columns: table => new
                 {
-                    IdArticulo = table.Column<int>(type: "int", nullable: false),
+                    IdArticulo = table.Column<int>(type: "int", nullable: false).Annotation("SqlServer:Identity", "1, 1"),
                     IdLibro = table.Column<int>(type: "int", nullable: false),
                     Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Existencias = table.Column<int>(type: "int", nullable: false),

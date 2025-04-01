@@ -1,0 +1,74 @@
+﻿@model IEnumerable<EdilitSoft.app.Models.Inventario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título del Libro</th>
+            <th>Autor</th>
+            <th>Fecha de actualizacion</th>
+            <th>Existencias</th>
+            <th>Precio</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @if (item.Libros != null)
+                    {
+                        @item.Libros.Titulo
+                    }
+                    else
+                    {
+                        <span class="text-danger">N/A</span>
+                    }
+                </td>
+                <td>
+                    @if (item.Libros != null)
+                    {
+                        @item.Libros.Autor
+                    }
+                    else
+                    {
+                        <span class="text-danger">N/A</span>
+                    }
+                </td>
+                
+                <td>@item.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@item.Existencias</td>
+                <td>@item.Precio.ToString("C")</td>
+                <td>
+                <td>
+                        @if (item.Activo)
+                        {
+                        <span class="badge badge-success">Activo</span>
+                        }
+                        else
+                        {
+                        <span class="badge badge-secondary">Inactivo</span>
+                        }
+                </td>
+                </td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.IdArticulo" class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.IdArticulo" class="btn btn-sm btn-info">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.IdArticulo" class="btn btn-sm btn-danger">Eliminar</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

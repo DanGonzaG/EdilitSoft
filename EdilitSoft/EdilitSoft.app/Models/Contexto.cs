@@ -78,7 +78,7 @@ namespace EdilitSoft.Models
                 entity.Property(x => x.Existencias).IsRequired();
                 entity.Property(x => x.Precio).HasColumnType("decimal(18,2)");
                 entity.Property(x => x.Activo).HasDefaultValue(true);
-
+                entity.Property(x => x.IdArticulo).ValueGeneratedOnAdd().UseIdentityColumn();
 
             });
 
