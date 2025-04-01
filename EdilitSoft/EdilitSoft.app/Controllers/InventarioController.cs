@@ -21,14 +21,35 @@ namespace EdilitSoft.app.Controllers
         }
 
         // GET: Inventario
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder, string currentFilter)
         {
-            var inventarios = await _context.Inventario
-                             .Include(i => i.Libros)
-                             .OrderBy(i => i.IdArticulo)  // Ordena por algún criterio
-                             .ToListAsync();
+            // Configura los parámetros de ordenamiento
+            ViewData["CurrentSort"] = sortOrder;
+            ViewData["TituloSortParam"] = sortOrder == "titulo_asc" ? "titulo_desc" : "titulo_asc";
+            ViewData["AutorSortParam"] = sortOrder == "autor_asc" ? "autor_desc" : "autor_asc";
+            ViewData["FechaSortParam"] = sortOrder == "fecha_asc" ? "fecha_desc" : "fecha_asc";
+            ViewData["ExistenciasSortParam"] = sortOrder == "existencias_asc" ? "existencias_desc" : "existencias_asc";
+            ViewData["PrecioSortParam"] = sortOrder == "precio_asc" ? "precio_desc" : "precio_asc";
 
-            return View(inventarios);
+            var query = _context.Inventario.Include(i => i.Libros).AsQueryable();
+
+            // Aplica el ordenamiento
+            query = sortOrder switch
+            {
+                "titulo_asc" => query.OrderBy(i => i.Libros!.Titulo),
+                "titulo_desc" => query.OrderByDescending(i => i.Libros!.Titulo),
+                "autor_asc" => query.OrderBy(i => i.Libros!.Autor),
+                "autor_desc" => query.OrderByDescending(i => i.Libros!.Autor),
+                "fecha_asc" => query.OrderBy(i => i.Fecha),
+                "fecha_desc" => query.OrderByDescending(i => i.Fecha),
+                "existencias_asc" => query.OrderBy(i => i.Existencias),
+                "existencias_desc" => query.OrderByDescending(i => i.Existencias),
+                "precio_asc" => query.OrderBy(i => i.Precio),
+                "precio_desc" => query.OrderByDescending(i => i.Precio),
+                _ => query.OrderBy(i => i.IdArticulo) // Orden por defecto
+            };
+
+            return View(await query.ToListAsync());
         }
 
         // GET: Inventario/Details/5
@@ -40,7 +61,6 @@ namespace EdilitSoft.app.Controllers
             }
 
             var inventario = await _context.Inventario
-                .Include(i => i.Cotizaciones)
                 .Include(i => i.Libros)
                 .FirstOrDefaultAsync(m => m.IdArticulo == id);
             if (inventario == null)
@@ -54,7 +74,7 @@ namespace EdilitSoft.app.Controllers
         // GET: Inventario/Create
         public IActionResult Create()
         {
-            ViewData["IdArticulo"] = new SelectList(_context.Cotizacion, "IdCotizacion", "IdCotizacion");
+            
             ViewData["IdLibro"] = new SelectList(_context.Libro, "IdLibro", "Titulo");
             return View();
         }
@@ -86,6 +106,7 @@ namespace EdilitSoft.app.Controllers
             return View(inventario);
         }
 
+
         // GET: Inventario/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -98,8 +119,7 @@ namespace EdilitSoft.app.Controllers
             if (inventario == null)
             {
                 return NotFound();
-            }
-            ViewData["IdArticulo"] = new SelectList(_context.Cotizacion, "IdCotizacion", "IdCotizacion", inventario.IdArticulo);
+            }            
             ViewData["IdLibro"] = new SelectList(_context.Libro, "IdLibro", "Titulo", inventario.IdLibro);
             return View(inventario);
         }
@@ -109,7 +129,7 @@ namespace EdilitSoft.app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdArticulo,IdLibro,Fecha,Existencias,Precio,Activo")] Inventario inventario)
+        public async Task<IActionResult> Edit(int id, [Bind("IdArticulo,IdLibro,Existencias,Precio,Activo")] Inventario inventario)
         {
             if (id != inventario.IdArticulo)
             {
@@ -118,8 +138,10 @@ namespace EdilitSoft.app.Controllers
 
             if (ModelState.IsValid)
             {
+                inventario.Fecha = DateTime.Now;
                 try
                 {
+
                     _context.Update(inventario);
                     await _context.SaveChangesAsync();
                 }
@@ -136,7 +158,7 @@ namespace EdilitSoft.app.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdArticulo"] = new SelectList(_context.Cotizacion, "IdCotizacion", "IdCotizacion", inventario.IdArticulo);
+            
             ViewData["IdLibro"] = new SelectList(_context.Libro, "IdLibro", "Autor", inventario.IdLibro);
             return View(inventario);
         }

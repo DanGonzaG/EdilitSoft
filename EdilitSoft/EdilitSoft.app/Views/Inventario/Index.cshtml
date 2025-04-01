@@ -1,22 +1,93 @@
 ﻿@model IEnumerable<EdilitSoft.app.Models.Inventario>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Inventario";
 }
 
-<h1>Index</h1>
+<h1>Inventario de Libros</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Agregar al Inventario</a>
 </p>
-<table class="table">
-    <thead>
+
+<table class="table table-striped table-hover">
+    <thead class="thead-light">
         <tr>
-            <th>Título del Libro</th>
-            <th>Autor</th>
-            <th>Fecha de actualizacion</th>
-            <th>Existencias</th>
-            <th>Precio</th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@ViewData["TituloSortParam"]"
+                   class="text-decoration-none">
+                    Título del Libro
+                    @if ((string?)ViewData["CurrentSort"] == "titulo_asc")
+                    {
+                        <i class="bi bi-arrow-up"></i>
+                    }
+                    else if ((string?)ViewData["CurrentSort"] == "titulo_desc")
+                    {
+                        <i class="bi bi-arrow-down"></i>
+                    }
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@ViewData["AutorSortParam"]"
+                   class="text-decoration-none">
+                    Autor
+                    @if ((string?)ViewData["CurrentSort"] == "autor_asc")
+                    {
+                        <i class="bi bi-arrow-up"></i>
+                    }
+                    else if ((string?)ViewData["CurrentSort"] == "autor_desc")
+                    {
+                        <i class="bi bi-arrow-down"></i>
+                    }
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@ViewData["FechaSortParam"]"
+                   class="text-decoration-none">
+                    Fecha de actualización
+                    @if ((string?)ViewData["CurrentSort"] == "fecha_asc")
+                    {
+                        <i class="bi bi-arrow-up"></i>
+                    }
+                    else if ((string?)ViewData["CurrentSort"] == "fecha_desc")
+                    {
+                        <i class="bi bi-arrow-down"></i>
+                    }
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@ViewData["ExistenciasSortParam"]"
+                   class="text-decoration-none">
+                    Existencias
+                    @if ((string?)ViewData["CurrentSort"] == "existencias_asc")
+                    {
+                        <i class="bi bi-arrow-up"></i>
+                    }
+                    else if ((string?)ViewData["CurrentSort"] == "existencias_desc")
+                    {
+                        <i class="bi bi-arrow-down"></i>
+                    }
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-sortOrder="@ViewData["PrecioSortParam"]"
+                   class="text-decoration-none">
+                    Precio
+                    @if ((string?)ViewData["CurrentSort"] == "precio_asc")
+                    {
+                        <i class="bi bi-arrow-up"></i>
+                    }
+                    else if ((string?)ViewData["CurrentSort"] == "precio_desc")
+                    {
+                        <i class="bi bi-arrow-down"></i>
+                    }
+                </a>
+            </th>
             <th>Estado</th>
             <th>Acciones</th>
         </tr>
@@ -25,50 +96,46 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
-                    @if (item.Libros != null)
-                    {
-                        @item.Libros.Titulo
-                    }
-                    else
-                    {
-                        <span class="text-danger">N/A</span>
-                    }
-                </td>
-                <td>
-                    @if (item.Libros != null)
-                    {
-                        @item.Libros.Autor
-                    }
-                    else
-                    {
-                        <span class="text-danger">N/A</span>
-                    }
-                </td>
-                
+                <td>@(item.Libros?.Titulo ?? "N/A")</td>
+                <td>@(item.Libros?.Autor ?? "N/A")</td>
                 <td>@item.Fecha.ToString("dd/MM/yyyy")</td>
                 <td>@item.Existencias</td>
                 <td>@item.Precio.ToString("C")</td>
                 <td>
-                <td>
-                        @if (item.Activo)
-                        {
-                        <span class="badge badge-success">Activo</span>
-                        }
-                        else
-                        {
-                        <span class="badge badge-secondary">Inactivo</span>
-                        }
-                </td>
+                    <input type="checkbox" @(item.Activo ? "checked" : "")
+                           class="form-check-input" disabled />
                 </td>
                 <td>
-                    <div class="btn-group" role="group">
-                        <a asp-action="Edit" asp-route-id="@item.IdArticulo" class="btn btn-sm btn-warning">Editar</a>
-                        <a asp-action="Details" asp-route-id="@item.IdArticulo" class="btn btn-sm btn-info">Detalles</a>
-                        <a asp-action="Delete" asp-route-id="@item.IdArticulo" class="btn btn-sm btn-danger">Eliminar</a>
+                    <div class="btn-group btn-group-sm">
+                        <a asp-action="Edit" asp-route-id="@item.IdArticulo"
+                           class="btn btn-warning">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.IdArticulo"
+                           class="btn btn-info">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.IdArticulo"
+                           class="btn btn-danger">Eliminar</a>
                     </div>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <style>
+        .table th a {
+            color: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+            .table th a:hover {
+                color: #0056b3;
+            }
+
+        .bi {
+            margin-left: 5px;
+            font-size: 0.8rem;
+        }
+    </style>
+}

@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Editar datos en Inventario</h1>
 
 <h4>Inventario</h4>
 <hr />
@@ -14,15 +14,20 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdArticulo" />
             <div class="form-group">
-                <label asp-for="IdLibro" class="control-label"></label>
-                <select asp-for="IdLibro" class="form-control" asp-items="ViewBag.IdLibro"></select>
+                <label asp-for="IdLibro" class="control-label">Título</label>
+
+                <!-- Input de solo lectura que muestra el TÍTULO del libro -->
+                <input type="text"
+                       class="form-control"
+                       value="@((ViewBag.IdLibro as SelectList)?.FirstOrDefault(x => x.Value == Model.IdLibro.ToString())?.Text)"
+                       readonly />
+
+                <!-- Campo oculto para mantener el IdLibro en el modelo al enviar el formulario -->
+                <input type="hidden" asp-for="IdLibro" />
+
                 <span asp-validation-for="IdLibro" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Fecha" class="control-label"></label>
-                <input asp-for="Fecha" class="form-control" />
-                <span asp-validation-for="Fecha" class="text-danger"></span>
-            </div>
+            
             <div class="form-group">
                 <label asp-for="Existencias" class="control-label"></label>
                 <input asp-for="Existencias" class="form-control" />
@@ -40,14 +45,14 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Volver a inventario</a>
 </div>
 
 @section Scripts {

@@ -4,14 +4,20 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalles</h1>
 
 <div>
     <h4>Inventario</h4>
     <hr />
     <dl class="row">
+        <dt class="col-sm-2">
+            Titulo
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Libros.Titulo)
+        </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
+            Fecha de modificación
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Fecha)
@@ -34,21 +40,11 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Activo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Libros)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Libros.Autor)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cotizaciones)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cotizaciones.IdCotizacion)
-        </dd>
+        
+        
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdArticulo">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.IdArticulo">Editar</a> |
+    <a asp-action="Index">Volver al Inventario</a>
 </div>
