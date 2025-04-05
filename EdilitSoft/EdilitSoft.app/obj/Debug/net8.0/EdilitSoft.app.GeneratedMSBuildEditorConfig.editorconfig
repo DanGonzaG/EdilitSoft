@@ -17,55 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EdilitSoft.app
 build_property.RootNamespace = EdilitSoft.app
-build_property.ProjectDir = C:\Progra\EdilitSoft\EdilitSoft\EdilitSoft.app\
+build_property.ProjectDir = C:\Proyecto_Edit\EdilitSoft\EdilitSoft.app\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Progra\EdilitSoft\EdilitSoft\EdilitSoft.app
+build_property.MSBuildProjectDirectory = C:\Proyecto_Edit\EdilitSoft\EdilitSoft.app
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/BooksApi/buscarISBN.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/BooksApi/buscarISBN.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NBcGlcYnVzY2FySVNCTi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Home/Index.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Home/Privacy.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Shared/Error.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Inventario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Inventario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Inventario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Inventario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Inventario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Shared/_LayoutLibro.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Shared/_LayoutLibro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMaWJyby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Shared/_LoginPartial.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/_ViewImports.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/_ViewStart.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Progra/EdilitSoft/EdilitSoft/EdilitSoft.app/Views/Shared/_Layout.cshtml]
+[C:/Proyecto_Edit/EdilitSoft/EdilitSoft.app/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k7wunzgf4g
