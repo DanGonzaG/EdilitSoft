@@ -985,6 +985,78 @@
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\icomoon.woff"
     },
     {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\404.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\404.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\about.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\about.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\checkout.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\checkout.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\contact.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\contact.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\contact.php",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\contact.php"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\faq.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\faq.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\index-2.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\index-2.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\index.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\index.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\news-details.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\news-details.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\news-grid.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\news-grid.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\news.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\news.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop-cart.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop-cart.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop-details.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop-details.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop-list.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop-list.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\team-details.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\team-details.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\team.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\team.html"
+    },
+    {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\wishlist.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\wishlist.html"
+    },
+    {
       "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

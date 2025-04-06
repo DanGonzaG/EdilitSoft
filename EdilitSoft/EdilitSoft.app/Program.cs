@@ -1,6 +1,7 @@
 using EdilitSoft.app.Data;
 using EdilitSoft.app.Models;
-using EdilitSoft.Models;
+
+using EdilitSoft.app.ServiciosDaniel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -68,6 +69,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient();
+
+builder.Services.AddScoped<ICotizacion, Cotizacion>();
 
 var app = builder.Build();
 

@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using EdilitSoft.app.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using EdilitSoft.app.Models;
 
-namespace EdilitSoft.Models
+
+namespace EdilitSoft.app.Models
 {
     public class Contexto : DbContext
     {
