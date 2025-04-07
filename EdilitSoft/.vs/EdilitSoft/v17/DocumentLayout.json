@@ -1,13 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Progra\\EdilitSoft\\EdilitSoft\\",
+  "WorkspaceRootPath": "D:\\Github\\EdilitSoft\\EdilitSoft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|c:\\progra\\edilitsoft\\edilitsoft\\edilitsoft.app\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\shared\\_layoutlibro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\shared\\_layoutlibro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\migrations\\20250407045403_juanpa_clientesproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\migrations\\20250407045403_juanpa_clientesproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|c:\\progra\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\cotizaciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|d:\\github\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\cotizaciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\cotizaciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -18,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -39,25 +67,102 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
-              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
-              "ToolTip": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
-              "RelativeToolTip": "EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC4AAAAyAAAAAAAAAA==",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T20:30:24.79Z",
+              "WhenOpened": "2025-04-07T06:06:21.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_LayoutLibro.cshtml",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Shared\\_LayoutLibro.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Shared\\_LayoutLibro.cshtml",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Shared\\_LayoutLibro.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\Shared\\_LayoutLibro.cshtml",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T06:05:49.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwDsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:57:37.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Proveedores\\Index.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Proveedores\\Index.cshtml",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Proveedores\\Index.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\Proveedores\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:54:19.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:36:45.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250407045403_JuanPa_ClientesProveedores.cs",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Migrations\\20250407045403_JuanPa_ClientesProveedores.cs",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Migrations\\20250407045403_JuanPa_ClientesProveedores.cs",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Migrations\\20250407045403_JuanPa_ClientesProveedores.cs",
+              "RelativeToolTip": "EdilitSoft.app\\Migrations\\20250407045403_JuanPa_ClientesProveedores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:54:32.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T20:30:24.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CotizacionesController.cs",
-              "DocumentMoniker": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Controllers\\CotizacionesController.cs",
+              "DocumentMoniker": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Controllers\\CotizacionesController.cs",
               "RelativeDocumentMoniker": "EdilitSoft.app\\Controllers\\CotizacionesController.cs",
-              "ToolTip": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Controllers\\CotizacionesController.cs",
+              "ToolTip": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Controllers\\CotizacionesController.cs",
               "RelativeToolTip": "EdilitSoft.app\\Controllers\\CotizacionesController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAWwDQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAswJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T20:11:10.41Z",
               "EditorCaption": ""

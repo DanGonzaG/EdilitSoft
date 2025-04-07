@@ -5,7 +5,7 @@
 namespace EdilitSoft.app.Migrations
 {
     /// <inheritdoc />
-    public partial class MDanielCotiProveedor : Migration
+    public partial class JuanPa_ClientesProveedores : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -1,0 +1,60 @@
+@model IEnumerable<EdilitSoft.app.Models.Clientes>
+
+@{
+    ViewData["Title"] = "Listado de Clientes";
+}
+<h1>Listado de Clientes</h1>
+
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Agregar Cliente</a>
+
+</p>
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Identificacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Identificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdCliente">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdCliente">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdCliente">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

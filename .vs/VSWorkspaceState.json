@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\EdilitSoft",
+    "\\EdilitSoft\\EdilitSoft.app",
+    "\\EdilitSoft\\EdilitSoft.app\\Controllers",
+    "\\EdilitSoft\\EdilitSoft.app\\Models",
+    "\\EdilitSoft\\EdilitSoft.app\\Properties",
+    "\\EdilitSoft\\EdilitSoft.app\\Views",
+    "\\EdilitSoft\\EdilitSoft.app\\Views\\Shared"
   ],
-  "SelectedNode": "\\C:\\Progra\\EdilitSoft",
+  "SelectedNode": "\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
   "PreviewInSolutionExplorer": false
 }
