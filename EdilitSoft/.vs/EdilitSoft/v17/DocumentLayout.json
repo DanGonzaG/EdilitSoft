@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Progra\\EdilitSoft\\EdilitSoft\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|c:\\progra\\edilitsoft\\edilitsoft\\edilitsoft.app\\views\\booksapi\\buscarisbn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\views\\booksapi\\buscarisbn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|c:\\progra\\edilitsoft\\edilitsoft\\edilitsoft.app\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{232CD41F-E781-4716-8AF1-3330E1137017}|EdilitSoft.app\\EdilitSoft.app.csproj|solutionrelative:edilitsoft.app\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "buscarISBN.cshtml",
+              "DocumentMoniker": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\BooksApi\\buscarISBN.cshtml",
+              "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\BooksApi\\buscarISBN.cshtml",
+              "ToolTip": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\BooksApi\\buscarISBN.cshtml",
+              "RelativeToolTip": "EdilitSoft.app\\Views\\BooksApi\\buscarISBN.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T01:34:41.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
               "RelativeDocumentMoniker": "EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
@@ -46,18 +63,17 @@
               "RelativeToolTip": "EdilitSoft.app\\Views\\Cotizaciones\\Details.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAwwC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T20:30:24.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T20:30:24.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CotizacionesController.cs",
               "DocumentMoniker": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Controllers\\CotizacionesController.cs",
               "RelativeDocumentMoniker": "EdilitSoft.app\\Controllers\\CotizacionesController.cs",
               "ToolTip": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\Controllers\\CotizacionesController.cs",
               "RelativeToolTip": "EdilitSoft.app\\Controllers\\CotizacionesController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAWwDQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T20:11:10.41Z",
               "EditorCaption": ""
