@@ -8043,24 +8043,40 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\jpied\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\50664\\.nuget\\packages\\": {}
+>>>>>>> origin/Andy
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
       "projectName": "EdilitSoft.app",
       "projectPath": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
       "packagesPath": "C:\\Users\\jpied\\.nuget\\packages\\",
       "outputPath": "D:\\Github\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\obj\\",
+=======
+      "projectUniqueName": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
+      "projectName": "EdilitSoft.app",
+      "projectPath": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\EdilitSoft.app.csproj",
+      "packagesPath": "C:\\Users\\50664\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\obj\\",
+>>>>>>> origin/Andy
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\jpied\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "C:\\Users\\50664\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin/Andy
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<EdilitSoft.app.Models.Editoriales>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Editoriales</h1>
+
+<p>
+    <a asp-action="Create">Agregar una nueva editorial</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreEditorial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SitioWeb)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreEditorial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SitioWeb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdEditorial">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdEditorial">Detalle</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdEditorial">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

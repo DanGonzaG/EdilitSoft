@@ -16,10 +16,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+855ffba7ff3d33c236a78b7f47e56e666046046f")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98a360a463269800c7bf8711e1c8b7787f19253e")]
 >>>>>>> origin/main
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ab45e7365d72512c02eeddf62e693a1d839760f")]
+>>>>>>> origin/Andy
 [assembly: System.Reflection.AssemblyProductAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

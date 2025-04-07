@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EdilitSoft.app.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20250331183620_MOV_ModificacionRelacionesConCategoria")]
-    partial class MOV_ModificacionRelacionesConCategoria
+    [Migration("20250405230333_AndyPrueba")]
+    partial class AndyPrueba
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
