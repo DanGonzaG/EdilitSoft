@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EdilitSoft.app.Migrations
 {
     /// <inheritdoc />
-    public partial class CreacionTablas1 : Migration
+    public partial class AndyPrueba : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -144,7 +144,8 @@ namespace EdilitSoft.app.Migrations
                 name: "Inventario",
                 columns: table => new
                 {
-                    IdArticulo = table.Column<int>(type: "int", nullable: false).Annotation("SqlServer:Identity", "1, 1"),
+                    IdArticulo = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     IdLibro = table.Column<int>(type: "int", nullable: false),
                     Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Existencias = table.Column<int>(type: "int", nullable: false),

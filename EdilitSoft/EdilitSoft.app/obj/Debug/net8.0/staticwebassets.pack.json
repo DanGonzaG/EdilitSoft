@@ -1,1227 +1,1299 @@
 {
   "Files": [
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EdilitSoft.app.bundle.scp.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EdilitSoft.app.bundle.scp.css",
       "PackagePath": "staticwebassets\\EdilitSoft.app.bundle.scp.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\Propios.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\Propios.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\Propios.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\all.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\all.min.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\animate.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\animate.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\animate.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\bootstrap.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\color.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\color.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\color.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\icomoon.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\icomoon.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\icomoon.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\magnific-popup.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\main.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\main.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\main.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\main.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\main.css.map",
       "PackagePath": "staticwebassets\\Plantilla\\css\\main.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\meanmenu.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\meanmenu.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\meanmenu.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\nice-select.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\nice-select.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\swiper-bundle.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\css\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\Plantilla\\css\\swiper-bundle.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.eot",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.eot",
       "PackagePath": "staticwebassets\\Plantilla\\fonts\\icomoon.eot"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.svg",
       "PackagePath": "staticwebassets\\Plantilla\\fonts\\icomoon.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\fonts\\icomoon.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.woff",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\fonts\\icomoon.woff",
       "PackagePath": "staticwebassets\\Plantilla\\fonts\\icomoon.woff"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\404.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\404.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\404.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\GooglePay.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\GooglePay.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\GooglePay.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\Mastercard2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\Mastercard2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\Mastercard2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\PayPal.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\PayPal.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\PayPal.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\about.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\about.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\about.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\affirm.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\affirm.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\affirm.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\amazon.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\amazon.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\amazon.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-1.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-1.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\banner\\book-1.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\banner\\book-2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-3.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-3.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\banner\\book-3.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-banner-1.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-banner-1.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\banner\\book-banner-1.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-banner-2.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-banner-2.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\banner\\book-banner-2.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-banner-3.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\banner\\book-banner-3.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\banner\\book-banner-3.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\01.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\01.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\01.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\02.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\02.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\02.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\03.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\03.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\03.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\04.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\04.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\04.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\05.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\05.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\05.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\06.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\06.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\06.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\circle-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-categori\\circle-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-categori\\circle-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\01.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\01.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\01.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\02.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\02.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\02.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\03.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\03.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\03.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\04.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\04.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\04.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\05.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\05.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\05.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\06.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\06.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\06.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\07.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\07.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\07.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\08.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\08.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\08.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\09.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\09.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\09.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\10.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\10.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\10.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\11.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\book\\11.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\book\\11.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\boy-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\boy-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\boy-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\chevron-down.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\chevron-down.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\chevron-down.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\chevron-right.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\chevron-right.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\chevron-right.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\circle-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\circle-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\circle-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\contact.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\contact.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\contact.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\cta-banner.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\cta-banner.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\cta-banner.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\cta-banner2.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\cta-banner2.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\cta-banner2.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\cutomerio.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\cutomerio.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\cutomerio.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\dropbox.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\dropbox.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\dropbox.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\facebook.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\facebook.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\facebook.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\favicon.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\favicon.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\favicon.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\favicon.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\favicon.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\girl-shape-2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\girl-shape-2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\girl-shape-2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\girl-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\girl-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\girl-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\google.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\google.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\google.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\bg-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\bg-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\bg-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\bg-shape2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\bg-shape2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\bg-shape2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\book.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\book.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\book.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\book1.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\book1.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\book1.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\book2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\book2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\book2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\frame-2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\frame-2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\frame-2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\frame-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\frame-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\frame-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\frame.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\frame.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\frame.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero-book.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero-book.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\hero-book.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero-girl.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero-girl.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\hero-girl.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero2-bg.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero2-bg.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\hero2-bg.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero2-shape1.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero2-shape1.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\hero2-shape1.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero2-shape2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\hero2-shape2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\hero2-shape2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\xstar.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\hero\\xstar.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\hero\\xstar.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-1.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-1.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-1.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-10.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-10.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-10.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-11.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-11.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-11.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-12.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-12.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-12.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-13.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-13.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-13.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-14.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-14.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-14.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-15.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-15.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-15.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-16.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-16.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-16.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-17.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-17.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-17.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-18.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-18.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-18.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-19.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-19.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-19.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-2.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-2.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-2.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-20.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-20.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-20.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-21.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-21.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-21.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-22.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-22.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-22.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-23.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-23.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-23.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-3.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-3.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-3.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-4.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-4.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-4.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-5.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-5.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-5.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-6.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-6.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-6.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-7.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-7.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-7.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-8.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-8.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-8.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-9.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\icon-9.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\icon-9.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\shuffle.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\icon\\shuffle.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\icon\\shuffle.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\Logo.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\Logo.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\logo\\Logo.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\black-logo.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\black-logo.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\logo\\black-logo.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\logoEdilitSinFondo.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\logoEdilitSinFondo.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\logo\\logoEdilitSinFondo.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\white-logo.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\logo\\white-logo.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\logo\\white-logo.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\mastercard.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\mastercard.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\mastercard.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\01.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\01.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\01.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\02.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\02.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\02.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\03.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\03.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\03.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\04.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\04.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\04.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\05.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\05.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\05.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\06.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\06.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\06.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\07.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\07.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\07.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\08.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\08.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\08.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\09.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\09.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\09.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\10.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\10.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\10.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\11.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\11.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\11.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\12.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\12.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\12.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\13.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\13.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\13.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\14.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\14.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\14.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\15.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\15.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\15.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\16.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\16.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\16.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\comment-2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\comment-2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\comment-2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\comment.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\comment.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\comment.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-1.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-1.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\post-1.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-2.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-2.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\post-2.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-3.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-3.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\post-3.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-4.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-4.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\post-4.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-5.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-5.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\post-5.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-6.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\post-6.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\post-6.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\pp3.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\pp3.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\pp3.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\pp4.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\pp4.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\pp4.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\pp5.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\news\\pp5.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\news\\pp5.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\payoneer.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\payoneer.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\payoneer.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\plane-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\plane-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\plane-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\popupBg.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\popupBg.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\popupBg.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\registrationbg.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\registrationbg.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\registrationbg.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-banner.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-banner.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-banner.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\01.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\01.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-cart\\01.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\02.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\02.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-cart\\02.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\03.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\03.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-cart\\03.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\post-3.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-cart\\post-3.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-cart\\post-3.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\01.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\01.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\01.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\02.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\02.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\02.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\03.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\03.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\03.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\04.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\04.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\04.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\05.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\05.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\05.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\review.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\review.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\review.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-1.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-1.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\sm-1.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\sm-2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-3.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-3.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\sm-3.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-4.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-4.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\sm-4.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-5.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-details\\sm-5.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-details\\sm-5.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\01.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\01.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-list\\01.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\02.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\02.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-list\\02.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\03.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\03.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-list\\03.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\04.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\shop-list\\04.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\shop-list\\04.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\signUpbg.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\signUpbg.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\signUpbg.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\create.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\create.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\sign\\create.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\fb.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\fb.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\sign\\fb.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\google.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\google.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\sign\\google.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\login.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\sign\\login.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\sign\\login.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\01.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\01.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\01.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\02.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\02.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\02.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\03.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\03.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\03.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\04.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\04.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\04.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\05.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\05.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\05.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\06.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\06.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\06.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\bg-shape.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\bg-shape.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\bg-shape.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\details.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\details.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\details.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\shape-img.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\team\\shape-img.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\team\\shape-img.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\01.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\01.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\01.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\02.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\02.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\02.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\03.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\03.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\03.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\04.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\04.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\04.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-1.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-1.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\client-1.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\client-2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-3.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-3.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\client-3.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-4.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-4.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\client-4.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-5.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\client-5.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\client-5.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\logo1.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\logo1.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\logo1.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\logo2.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\logo2.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\logo2.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\shape.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\testimonial\\shape.svg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\testimonial\\shape.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\01.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\01.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\01.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\02.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\02.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\02.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\03.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\03.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\03.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\04.jpg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\04.jpg",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\04.jpg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\04.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\04.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\04.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\05.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\05.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\05.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\06.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\top-book\\06.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\top-book\\06.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\visa-logo.png",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\img\\visa-logo.png",
       "PackagePath": "staticwebassets\\Plantilla\\img\\visa-logo.png"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\ajax-mail.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\ajax-mail.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\ajax-mail.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\circle-progress.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\circle-progress.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\circle-progress.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\gsap.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\gsap.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\gsap.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery-3.7.1.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery-3.7.1.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\jquery-3.7.1.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.counterup.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.meanmenu.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.meanmenu.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\jquery.meanmenu.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.nice-select.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.nice-select.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.waypoints.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\jquery.waypoints.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\jquery.waypoints.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\main.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\main.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\main.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\swiper-bundle.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\swiper-bundle.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\viewport.jquery.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\viewport.jquery.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\viewport.jquery.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\wow.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\Plantilla\\js\\wow.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_about.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_about.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_about.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_animation.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_animation.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_animation.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_buttons.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_buttons.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_contact.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_contact.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_contact.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_cta.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_cta.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_cta.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_faq.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_faq.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_faq.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_feature.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_feature.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_feature.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_footer.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_footer.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_footer.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_header.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_header.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_header.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_helping.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_helping.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_helping.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_hero.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_hero.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_hero.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_meanmenu.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_meanmenu.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_meanmenu.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_mixins.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_news.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_news.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_news.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_preloader.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_preloader.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_preloader.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_section.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_section.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_section.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_shop.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_shop.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_shop.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_team.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_team.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_team.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_testimonial.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_testimonial.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_testimonial.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_typography.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_typography.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_typography.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_variables.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\main.scss",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\scss\\main.scss",
       "PackagePath": "staticwebassets\\Plantilla\\scss\\main.scss"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-duotone-900.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-duotone-900.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-duotone-900.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-duotone-900.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-duotone-900.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-duotone-900.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-light-300.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-light-300.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-light-300.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-light-300.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-light-300.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-light-300.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-thin-100.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-thin-100.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-thin-100.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-thin-100.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-thin-100.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-thin-100.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.eot",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.eot",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\icomoon.eot"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.svg",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.svg",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\icomoon.svg"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.ttf",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.ttf",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\icomoon.ttf"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.woff",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\Plantilla\\webfonts\\icomoon.woff",
       "PackagePath": "staticwebassets\\Plantilla\\webfonts\\icomoon.woff"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\css\\site.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\404.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\404.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\about.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\about.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\checkout.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\checkout.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\contact.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\contact.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\contact.php",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\contact.php"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\faq.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\faq.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\index-2.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\index-2.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\index.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\index.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\news-details.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\news-details.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\news-grid.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\news-grid.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\news.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\news.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop-cart.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop-cart.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop-details.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop-details.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop-list.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop-list.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\shop.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\shop.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\team-details.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\team-details.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\team.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\team.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\PlantillasHTML\\wishlist.html",
+      "PackagePath": "staticwebassets\\PlantillasHTML\\wishlist.html"
+    },
+    {
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\favicon.ico",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\js\\site.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Proyecto_Edit\\EdilitSoft\\EdilitSoft.app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

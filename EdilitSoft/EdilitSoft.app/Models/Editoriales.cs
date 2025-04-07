@@ -7,6 +7,7 @@ namespace EdilitSoft.app.Models
         public int IdEditorial { get; set; }
 
         [Required(ErrorMessage = "Campo obligatorio"), MaxLength(100, ErrorMessage = "No más de 100 carácteres")]
+        [Display(Name = "Nombre de la Editorial")]
         public string NombreEditorial { get; set; }
         public string? Telefono { get; set; }
         public string? SitioWeb { get; set; }
