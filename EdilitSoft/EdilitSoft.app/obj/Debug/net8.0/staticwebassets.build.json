@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yNKEcIN+qnutbVTVt+t9sZ3Z/MjTn4QAmSaUzVaEu5Y=",
+  "Hash": "wvtUnAm+fqw8TN5a8djyNtsmRfs3oiZulhcEixWerWw=",
   "Source": "EdilitSoft.app",
   "BasePath": "_content/EdilitSoft.app",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\js\\Daniel.js",
+      "SourceId": "EdilitSoft.app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\",
+      "BasePath": "_content/EdilitSoft.app",
+      "RelativePath": "js/Daniel.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Daniel.js"
     },
     {
       "Identity": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\js\\site.js",

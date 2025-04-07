@@ -154,14 +154,19 @@ namespace EdilitSoft.app.Models
             //Realcion Cotizaciones Proveedor
             modelBuilder.Entity<Cotizaciones>()
                 .HasOne(c => c.Proveedor)
-                .WithOne(app => app.Cotizaciones)
-                .HasForeignKey<Cotizaciones>(a => a.IdProovedor);
+                .WithMany(app => app.Cotizaciones)
+                .HasForeignKey(a => a.IdProovedor);
 
             //Realcion Cotizaciones Cliente
             modelBuilder.Entity<Cotizaciones>()
+               .HasOne(c => c.Cliente)
+               .WithMany(app => app.Cotizaciones)
+               .HasForeignKey(a => a.IdCliente);
+
+            /*modelBuilder.Entity<Cotizaciones>()
                 .HasOne(c => c.Cliente)
                 .WithOne(app => app.Cotizaciones)
-                .HasForeignKey<Cotizaciones>(a => a.IdCliente);
+                .HasForeignKey<Cotizaciones>(a => a.IdCliente);*/
 
         }
     }

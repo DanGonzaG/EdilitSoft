@@ -4,6 +4,7 @@ using EdilitSoft.app.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EdilitSoft.app.Migrations
 {
     [DbContext(typeof(Contexto))]
-    partial class ContextoModelSnapshot : ModelSnapshot
+    [Migration("20250406195750_MDanielCotiCliente")]
+    partial class MDanielCotiCliente
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -152,7 +155,8 @@ namespace EdilitSoft.app.Migrations
 
                     b.HasIndex("IdCliente");
 
-                    b.HasIndex("IdProovedor");
+                    b.HasIndex("IdProovedor")
+                        .IsUnique();
 
                     b.ToTable("Cotizacion");
                 });
@@ -329,8 +333,8 @@ namespace EdilitSoft.app.Migrations
                         .IsRequired();
 
                     b.HasOne("EdilitSoft.app.Models.Proveedores", "Proveedor")
-                        .WithMany("Cotizaciones")
-                        .HasForeignKey("IdProovedor")
+                        .WithOne("Cotizaciones")
+                        .HasForeignKey("EdilitSoft.app.Models.Cotizaciones", "IdProovedor")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

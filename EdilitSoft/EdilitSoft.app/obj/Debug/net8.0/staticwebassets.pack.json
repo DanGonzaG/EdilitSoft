@@ -1065,6 +1065,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\js\\Daniel.js",
+      "PackagePath": "staticwebassets\\js\\Daniel.js"
+    },
+    {
       "Id": "C:\\Progra\\EdilitSoft\\EdilitSoft\\EdilitSoft.app\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

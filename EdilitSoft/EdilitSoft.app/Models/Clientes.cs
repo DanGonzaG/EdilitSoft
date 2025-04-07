@@ -20,6 +20,7 @@ namespace EdilitSoft.app.Models
 
         public bool Activo { get; set; }
 
-        public Cotizaciones? Cotizaciones { get; set; }
+        public List<Cotizaciones>? Cotizaciones { get; set; }
+        //public Cotizaciones? Cotizaciones { get; set; }
     }
 }
