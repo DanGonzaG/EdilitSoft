@@ -540,3 +540,4 @@ D:\Github\EdilitSoft\EdilitSoft\EdilitSoft.app\obj\Debug\net8.0\refint\EdilitSof
 D:\Github\EdilitSoft\EdilitSoft\EdilitSoft.app\obj\Debug\net8.0\EdilitSoft.app.pdb
 D:\Github\EdilitSoft\EdilitSoft\EdilitSoft.app\obj\Debug\net8.0\EdilitSoft.app.genruntimeconfig.cache
 D:\Github\EdilitSoft\EdilitSoft\EdilitSoft.app\obj\Debug\net8.0\ref\EdilitSoft.app.dll
+D:\Github\EdilitSoft\EdilitSoft\EdilitSoft.app\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

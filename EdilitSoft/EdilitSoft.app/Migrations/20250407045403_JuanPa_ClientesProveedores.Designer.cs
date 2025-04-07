@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EdilitSoft.app.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20250406201038_MDanielCotiProveedor")]
-    partial class MDanielCotiProveedor
+    [Migration("20250407045403_JuanPa_ClientesProveedores")]
+    partial class JuanPa_ClientesProveedores
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
