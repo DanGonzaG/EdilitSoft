@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EdilitSoft.app.Models;
 
@@ -28,18 +24,13 @@ namespace EdilitSoft.app.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var proveedores = await _context.Proveedor
-                .FirstOrDefaultAsync(m => m.IdProveedor == id);
-            if (proveedores == null)
-            {
+            var proveedor = await _context.Proveedor.FirstOrDefaultAsync(p => p.IdProveedor == id);
+            if (proveedor == null)
                 return NotFound();
-            }
 
-            return View(proveedores);
+            return View(proveedor);
         }
 
         // GET: Proveedores/Create
@@ -49,88 +40,96 @@ namespace EdilitSoft.app.Controllers
         }
 
         // POST: Proveedores/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdProveedor,Identificacion,Nombre,Telefono,Correo,Activo")] Proveedores proveedores)
+        public async Task<IActionResult> Create(Proveedores proveedor)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(proveedores);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(proveedores);
+            if (!Regex.IsMatch(proveedor.Telefono ?? "", @"^\d{4}-\d{4}$"))
+                ModelState.AddModelError("Telefono", "El teléfono debe tener el formato NNNN-NNNN.");
+
+            if (string.IsNullOrWhiteSpace(proveedor.Correo) || !proveedor.Correo.Contains("@"))
+                ModelState.AddModelError("Correo", "El correo debe contener un '@'.");
+
+            bool idDuplicado = await _context.Proveedor.AnyAsync(p => p.Identificacion == proveedor.Identificacion);
+            if (idDuplicado)
+                ModelState.AddModelError("Identificacion", "Ya existe un proveedor con esa identificación.");
+
+            if (!ModelState.IsValid)
+                return View(proveedor);
+
+            proveedor.Activo = true;
+            _context.Add(proveedor);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Proveedores/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var proveedores = await _context.Proveedor.FindAsync(id);
-            if (proveedores == null)
-            {
+            var proveedor = await _context.Proveedor.FindAsync(id);
+            if (proveedor == null)
                 return NotFound();
-            }
-            return View(proveedores);
+
+            return View(proveedor);
         }
 
         // POST: Proveedores/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdProveedor,Identificacion,Nombre,Telefono,Correo,Activo")] Proveedores proveedores)
+        public async Task<IActionResult> Edit(int id, Proveedores proveedor)
         {
-            if (id != proveedores.IdProveedor)
-            {
+            if (id != proveedor.IdProveedor)
                 return NotFound();
+
+            if (!Regex.IsMatch(proveedor.Telefono ?? "", @"^\d{4}-\d{4}$"))
+                ModelState.AddModelError("Telefono", "El teléfono debe tener el formato NNNN-NNNN.");
+
+            if (string.IsNullOrWhiteSpace(proveedor.Correo) || !proveedor.Correo.Contains("@"))
+                ModelState.AddModelError("Correo", "El correo debe contener un '@'.");
+
+            bool idDuplicado = await _context.Proveedor.AnyAsync(p => p.IdProveedor != proveedor.IdProveedor && p.Identificacion == proveedor.Identificacion);
+            if (idDuplicado)
+                ModelState.AddModelError("Identificacion", "Ya existe otro proveedor con esa identificación.");
+
+            if (!ModelState.IsValid)
+                return View(proveedor);
+
+            try
+            {
+                var proveedorBD = await _context.Proveedor.FindAsync(proveedor.IdProveedor);
+                if (proveedorBD == null)
+                    return NotFound();
+
+                proveedorBD.Nombre = proveedor.Nombre;
+                proveedorBD.Identificacion = proveedor.Identificacion;
+                proveedorBD.Telefono = proveedor.Telefono;
+                proveedorBD.Correo = proveedor.Correo;
+                proveedorBD.Activo = proveedor.Activo;
+
+                await _context.SaveChangesAsync();
+            }
+            catch
+            {
+                return BadRequest("Error actualizando proveedor.");
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(proveedores);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProveedoresExists(proveedores.IdProveedor))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(proveedores);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Proveedores/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var proveedores = await _context.Proveedor
-                .FirstOrDefaultAsync(m => m.IdProveedor == id);
-            if (proveedores == null)
-            {
+            var proveedor = await _context.Proveedor.FirstOrDefaultAsync(p => p.IdProveedor == id);
+            if (proveedor == null)
                 return NotFound();
-            }
 
-            return View(proveedores);
+            return View(proveedor);
         }
 
         // POST: Proveedores/Delete/5
@@ -138,19 +137,19 @@ namespace EdilitSoft.app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var proveedores = await _context.Proveedor.FindAsync(id);
-            if (proveedores != null)
+            var proveedor = await _context.Proveedor.FindAsync(id);
+            if (proveedor != null)
             {
-                _context.Proveedor.Remove(proveedores);
+                _context.Proveedor.Remove(proveedor);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProveedoresExists(int id)
+        private bool ProveedorExists(int id)
         {
-            return _context.Proveedor.Any(e => e.IdProveedor == id);
+            return _context.Proveedor.Any(p => p.IdProveedor == id);
         }
     }
 }

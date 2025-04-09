@@ -2,6 +2,7 @@ using EdilitSoft.app.Data;
 using EdilitSoft.app.Models;
 
 using EdilitSoft.app.ServiciosDaniel;
+using EdilitSoft.app.ServiciosJuanPa; // JuanPa: para registrar los servicios personalizados de Clientes y Proveedores
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -46,8 +47,6 @@ if (CadenaValida == null)
 
 
 
-
-
 // Add services to the container.
 //builder.Services.AddDbContext<Contexto>(options => options.UseSqlServer(CadenaValida));
 
@@ -60,9 +59,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDbContext<Contexto>(options =>
     options.UseSqlServer(connectionString));
 
-
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -71,6 +68,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
 builder.Services.AddScoped<ICotizacion, Cotizacion>();
+
+// JuanPa: registro del servicio personalizado para Clientes
+builder.Services.AddScoped<IClienteService, ClienteService>();
+// JuanPa: Servicio para Proveedores
+builder.Services.AddScoped<IProveedorService, ProveedorService>();
 
 var app = builder.Build();
 
@@ -82,7 +84,6 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

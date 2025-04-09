@@ -1,45 +1,39 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using EdilitSoft.app.Models;
+using EdilitSoft.app.ServiciosJuanPa;
+using System.Text.RegularExpressions;
 
 namespace EdilitSoft.app.Controllers
 {
     public class ClientesController : Controller
     {
-        private readonly Contexto _context;
+        // JuanPa: usamos el servicio en lugar del contexto directo
+        private readonly IClienteService _clienteService;
 
-        public ClientesController(Contexto context)
+        public ClientesController(IClienteService clienteService)
         {
-            _context = context;
+            _clienteService = clienteService;
         }
 
         // GET: Clientes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Cliente.ToListAsync());
+            var clientes = await _clienteService.ObtenerTodos();
+            return View(clientes);
         }
 
         // GET: Clientes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var clientes = await _context.Cliente
-                .FirstOrDefaultAsync(m => m.IdCliente == id);
-            if (clientes == null)
-            {
+            var cliente = await _clienteService.ObtenerPorId(id.Value);
+            if (cliente == null)
                 return NotFound();
-            }
 
-            return View(clientes);
+            return View(cliente);
         }
 
         // GET: Clientes/Create
@@ -49,133 +43,91 @@ namespace EdilitSoft.app.Controllers
         }
 
         // POST: Clientes/Create
-        // JuanPa: este método crea clientes validando duplicados y fuerza el campo Activo en true
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Clientes clientes)
+        public async Task<IActionResult> Create(Clientes cliente)
         {
-            if (ModelState.IsValid)
-            {
-                // Validación: nombre duplicado
-                bool existeNombre = await _context.Cliente
-                    .AnyAsync(c => c.Nombre.ToLower() == clientes.Nombre.ToLower());
+            // Validar formato teléfono
+            if (!Regex.IsMatch(cliente.Telefono ?? "", @"^\d{4}-\d{4}$"))
+                ModelState.AddModelError("Telefono", "El teléfono debe tener el formato NNNN-NNNN.");
 
-                // Validación: teléfono duplicado
-                bool existeTelefono = await _context.Cliente
-                    .AnyAsync(c => c.Telefono != null && c.Telefono.Trim() == clientes.Telefono.Trim());
+            // Validar correo contiene @
+            if (string.IsNullOrWhiteSpace(cliente.Correo) || !cliente.Correo.Contains("@"))
+                ModelState.AddModelError("Correo", "El correo debe contener un '@'.");
 
-                if (existeNombre)
-                {
-                    ModelState.AddModelError("Nombre", "Ya existe un cliente con ese nombre.");
-                }
+            // Validar identificación duplicada
+            bool identificacionDuplicada = (await _clienteService.ObtenerTodos())
+                .Any(c => c.Identificacion == cliente.Identificacion);
+            if (identificacionDuplicada)
+                ModelState.AddModelError("Identificacion", "Ya existe un cliente con esa identificación.");
 
-                if (existeTelefono)
-                {
-                    ModelState.AddModelError("Telefono", "Ya existe un cliente con ese número de teléfono.");
-                }
+            if (!ModelState.IsValid)
+                return View(cliente);
 
-                if (existeNombre || existeTelefono)
-                {
-                    return View(clientes);
-                }
-
-                clientes.Activo = true;
-                _context.Add(clientes);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(clientes);
+            await _clienteService.Crear(cliente);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Clientes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var clientes = await _context.Cliente.FindAsync(id);
-            if (clientes == null)
-            {
+            var cliente = await _clienteService.ObtenerPorId(id.Value);
+            if (cliente == null)
                 return NotFound();
-            }
-            return View(clientes);
+
+            return View(cliente);
         }
 
         // POST: Clientes/Edit/5
-        // JuanPa: este método valida duplicados antes de guardar cambios al editar cliente
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Clientes clientes)
+        public async Task<IActionResult> Edit(int id, Clientes cliente)
         {
-            if (id != clientes.IdCliente)
-            {
+            if (id != cliente.IdCliente)
                 return NotFound();
-            }
 
-            if (ModelState.IsValid)
+            // Validar formato teléfono
+            if (!Regex.IsMatch(cliente.Telefono ?? "", @"^\d{4}-\d{4}$"))
+                ModelState.AddModelError("Telefono", "El teléfono debe tener el formato NNNN-NNNN.");
+
+            // Validar correo contiene @
+            if (string.IsNullOrWhiteSpace(cliente.Correo) || !cliente.Correo.Contains("@"))
+                ModelState.AddModelError("Correo", "El correo debe contener un '@'.");
+
+            // Validar identificación duplicada
+            bool identificacionDuplicada = (await _clienteService.ObtenerTodos())
+                .Any(c => c.IdCliente != cliente.IdCliente && c.Identificacion == cliente.Identificacion);
+            if (identificacionDuplicada)
+                ModelState.AddModelError("Identificacion", "Ya existe otro cliente con esa identificación.");
+
+            if (!ModelState.IsValid)
+                return View(cliente);
+
+            try
             {
-                // Validar si existe otro cliente con el mismo nombre (excluyendo el actual)
-                bool nombreDuplicado = await _context.Cliente
-                    .AnyAsync(c => c.IdCliente != clientes.IdCliente && c.Nombre.ToLower() == clientes.Nombre.ToLower());
-
-                bool telefonoDuplicado = await _context.Cliente
-                    .AnyAsync(c => c.IdCliente != clientes.IdCliente && c.Telefono != null && c.Telefono.Trim() == clientes.Telefono.Trim());
-
-                if (nombreDuplicado)
-                {
-                    ModelState.AddModelError("Nombre", "Ya existe otro cliente con ese nombre.");
-                }
-
-                if (telefonoDuplicado)
-                {
-                    ModelState.AddModelError("Telefono", "Ya existe otro cliente con ese número de teléfono.");
-                }
-
-                if (nombreDuplicado || telefonoDuplicado)
-                {
-                    return View(clientes);
-                }
-
-                try
-                {
-                    _context.Update(clientes);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ClientesExists(clientes.IdCliente))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                await _clienteService.Editar(cliente);
             }
-
-            return View(clientes);
+            catch
+            {
+                return BadRequest("Error actualizando cliente.");
+            }
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Clientes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var clientes = await _context.Cliente
-                .FirstOrDefaultAsync(m => m.IdCliente == id);
-            if (clientes == null)
-            {
+            var cliente = await _clienteService.ObtenerPorId(id.Value);
+            if (cliente == null)
                 return NotFound();
-            }
 
-            return View(clientes);
+            return View(cliente);
         }
 
         // POST: Clientes/Delete/5
@@ -183,19 +135,8 @@ namespace EdilitSoft.app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var clientes = await _context.Cliente.FindAsync(id);
-            if (clientes != null)
-            {
-                _context.Cliente.Remove(clientes);
-            }
-
-            await _context.SaveChangesAsync();
+            await _clienteService.Eliminar(id);
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool ClientesExists(int id)
-        {
-            return _context.Cliente.Any(e => e.IdCliente == id);
         }
     }
 }
