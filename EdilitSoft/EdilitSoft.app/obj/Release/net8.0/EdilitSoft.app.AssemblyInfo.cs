@@ -11,12 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-EdilitSoft.app-e9160c23-3c74-4247-8eec-9baea626051d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98a360a463269800c7bf8711e1c8b7787f19253e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+293b41812a250387bae43c39a00dc4c1b2b98802")]
 [assembly: System.Reflection.AssemblyProductAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EdilitSoft.app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

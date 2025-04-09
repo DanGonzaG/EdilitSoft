@@ -23,6 +23,5 @@ namespace EdilitSoft.app.Models
         //public Cotizaciones? Cotizaciones { get; set; }
 
         public List<Cotizaciones>? Cotizaciones { get; set; }
-
     }
 }
