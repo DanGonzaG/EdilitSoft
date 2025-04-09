@@ -2,7 +2,7 @@ using EdilitSoft.app.Data;
 using EdilitSoft.app.Models;
 
 using EdilitSoft.app.ServiciosDaniel;
-using EdilitSoft.app.ServiciosJuanPa; // JuanPa: para registrar los servicios personalizados de Clientes
+using EdilitSoft.app.ServiciosJuanPa; // JuanPa: para registrar los servicios personalizados de Clientes y Proveedores
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -71,6 +71,8 @@ builder.Services.AddScoped<ICotizacion, Cotizacion>();
 
 // JuanPa: registro del servicio personalizado para Clientes
 builder.Services.AddScoped<IClienteService, ClienteService>();
+// JuanPa: Servicio para Proveedores
+builder.Services.AddScoped<IProveedorService, ProveedorService>();
 
 var app = builder.Build();
 
