@@ -30,9 +30,18 @@ namespace EdilitSoft.app.ServiciosJuanPa
             await _context.SaveChangesAsync();
         }
 
-        public async Task Editar(Clientes cliente) // JuanPa: método necesario para Edit
+        public async Task Editar(Clientes cliente)
         {
-            _context.Entry(cliente).State = EntityState.Modified;
+            var clienteBD = await _context.Cliente.FindAsync(cliente.IdCliente);
+            if (clienteBD == null)
+                throw new Exception("Cliente no encontrado.");
+
+            // JuanPa: solo actualizamos campos permitidos
+            clienteBD.Nombre = cliente.Nombre;
+            clienteBD.Identificacion = cliente.Identificacion;
+            clienteBD.Telefono = cliente.Telefono;
+            clienteBD.Correo = cliente.Correo;
+
             await _context.SaveChangesAsync();
         }
 

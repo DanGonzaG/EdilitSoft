@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EdilitSoft.app.Models;
 using EdilitSoft.app.ServiciosJuanPa;
+using System.Text.RegularExpressions;
 
 namespace EdilitSoft.app.Controllers
 {
@@ -28,7 +29,7 @@ namespace EdilitSoft.app.Controllers
             if (id == null)
                 return NotFound();
 
-            var cliente = await _clienteService.ObtenerPorId(id.Value); // JuanPa
+            var cliente = await _clienteService.ObtenerPorId(id.Value);
             if (cliente == null)
                 return NotFound();
 
@@ -46,12 +47,25 @@ namespace EdilitSoft.app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Clientes cliente)
         {
-            if (ModelState.IsValid)
-            {
-                await _clienteService.Crear(cliente); // JuanPa
-                return RedirectToAction(nameof(Index));
-            }
-            return View(cliente);
+            // Validar formato teléfono
+            if (!Regex.IsMatch(cliente.Telefono ?? "", @"^\d{4}-\d{4}$"))
+                ModelState.AddModelError("Telefono", "El teléfono debe tener el formato NNNN-NNNN.");
+
+            // Validar correo contiene @
+            if (string.IsNullOrWhiteSpace(cliente.Correo) || !cliente.Correo.Contains("@"))
+                ModelState.AddModelError("Correo", "El correo debe contener un '@'.");
+
+            // Validar identificación duplicada
+            bool identificacionDuplicada = (await _clienteService.ObtenerTodos())
+                .Any(c => c.Identificacion == cliente.Identificacion);
+            if (identificacionDuplicada)
+                ModelState.AddModelError("Identificacion", "Ya existe un cliente con esa identificación.");
+
+            if (!ModelState.IsValid)
+                return View(cliente);
+
+            await _clienteService.Crear(cliente);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Clientes/Edit/5
@@ -75,19 +89,32 @@ namespace EdilitSoft.app.Controllers
             if (id != cliente.IdCliente)
                 return NotFound();
 
-            if (ModelState.IsValid)
+            // Validar formato teléfono
+            if (!Regex.IsMatch(cliente.Telefono ?? "", @"^\d{4}-\d{4}$"))
+                ModelState.AddModelError("Telefono", "El teléfono debe tener el formato NNNN-NNNN.");
+
+            // Validar correo contiene @
+            if (string.IsNullOrWhiteSpace(cliente.Correo) || !cliente.Correo.Contains("@"))
+                ModelState.AddModelError("Correo", "El correo debe contener un '@'.");
+
+            // Validar identificación duplicada
+            bool identificacionDuplicada = (await _clienteService.ObtenerTodos())
+                .Any(c => c.IdCliente != cliente.IdCliente && c.Identificacion == cliente.Identificacion);
+            if (identificacionDuplicada)
+                ModelState.AddModelError("Identificacion", "Ya existe otro cliente con esa identificación.");
+
+            if (!ModelState.IsValid)
+                return View(cliente);
+
+            try
             {
-                try
-                {
-                    await _clienteService.Editar(cliente); // JuanPa: ahora coincide con la interfaz
-                }
-                catch
-                {
-                    return BadRequest("Error actualizando cliente.");
-                }
-                return RedirectToAction(nameof(Index));
+                await _clienteService.Editar(cliente);
             }
-            return View(cliente);
+            catch
+            {
+                return BadRequest("Error actualizando cliente.");
+            }
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Clientes/Delete/5
